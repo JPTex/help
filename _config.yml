@@ -6,19 +6,19 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Minimal Mistakes"
+locale                   : "ja-JP"
+title                    : "日本語LaTeX 簡単ガイド"
 title_separator          : "-"
-name                     : &name "Michael Rose"
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
+name                     : &name "@hh_pota"
+description              : &description "英語環境とはちがい、まだまだ分かりにくい日本語TeX環境を、同級生の為に解説します。"
+url                      : https://jptex.github.io/
+baseurl                  : "/help"
+repository               : "JPTex/help"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -48,53 +48,53 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+google_site_verification : "XXXXXXXXXXXXXXXXXXXXXXX"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "hh_pota"
 facebook:
-  username               : &facebook "michaelrose"
+  username               : &facebook ""
   app_id                 :
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Person # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://facebook.com/michaelrose"
+    - "https://twitter.com/hh_pota"
+    - "https://wings.blog.jp"
 
 # Analytics
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-2011187-3"
+    tracking_id          : "UA-2011287-3"
 
 
 # Site Author
 author:
-  name             : *name
-  avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  name             : "Pota"
+  avatar           : 
+  bio              : "Be a Texnician."
+  location         : "Kobe, JP"
   email            :
-  uri              : "https://mademistakes.com"
+  uri              : "https://wings.blog.jp"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           : "mmistakes"
+  github           : "JPTex"
   google_plus      :
   keybase          :
-  instagram        : "mmistakes"
+  instagram        : 
   lastfm           :
   linkedin         :
   pinterest        :
