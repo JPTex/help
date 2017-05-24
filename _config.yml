@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "ja-JP"
-title                    : "“ú–{ŒêLaTeX ŠÈ’PƒKƒCƒh"
+locale                   : "en-US"
+title                    : "æ—¥æœ¬èªLaTeX ç°¡å˜ã‚¬ã‚¤ãƒ‰"
 title_separator          : "-"
 name                     : &name "@hh_pota"
-description              : &description "‰pŒêŠÂ‹«‚Æ‚Í‚¿‚ª‚¢A‚Ü‚¾‚Ü‚¾•ª‚©‚è‚É‚­‚¢“ú–{ŒêTeXŠÂ‹«‚ğA“¯‹‰¶‚Ìˆ×‚É‰ğà‚µ‚Ü‚·B"
+description              : &description "è‹±èªç’°å¢ƒã¨ã¯ã¡ãŒã„ã€ã¾ã ã¾ã åˆ†ã‹ã‚Šã«ãã„æ—¥æœ¬èªTeXç’°å¢ƒã‚’ã€åŒç´šç”Ÿã®ç‚ºã«è§£èª¬ã—ã¾ã™ã€‚"
 url                      : https://jptex.github.io/
 baseurl                  : "/help"
 repository               : "JPTex/help"
@@ -140,7 +140,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "Shift_JIS"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
